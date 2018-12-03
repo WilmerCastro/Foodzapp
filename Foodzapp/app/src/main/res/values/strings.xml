@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FoodzApp</string>
+    <string name="comienza">Comienza con nosotros</string>
+    <string name="continuar">Continuar</string>
 </resources>
