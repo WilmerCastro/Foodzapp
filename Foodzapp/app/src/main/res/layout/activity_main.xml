@@ -12,25 +12,17 @@
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="match_parent"
-        android:layout_height="105dp"
+        android:layout_height="211dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginBottom="339dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="356dp"
         android:clickable="false"
-        app:srcCompat="@drawable/azulclaro" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="289dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="173dp"
-        android:ems="10"
-        android:inputType="number" />
+        app:srcCompat="@drawable/blancofondo" />
 
     <TextView
         android:id="@+id/textView"
@@ -39,10 +31,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="133dp"
+        android:layout_marginTop="18dp"
         android:text="@string/comienza"
         android:textColor="@android:color/black"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:fontFamily="serif" />
 
     <Button
@@ -57,7 +49,72 @@
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:visibility="invisible"
+        android:visibility="visible"
+        app:fontFamily="serif-monospace" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:ems="10"
+        android:hint="@string/usuarionombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:ems="10"
+        android:hint="@string/contrasenia"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="207dp"
+        android:layout_height="233dp"
+        android:layout_above="@+id/button"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginBottom="-33dp"
+        app:srcCompat="@drawable/foodzapplogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="134dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-356dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
+        android:background="@drawable/fondoverde"
+        android:text="@string/resitrarse"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:fontFamily="serif-monospace" />
 
 </RelativeLayout>

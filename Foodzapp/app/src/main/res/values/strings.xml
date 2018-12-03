@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">FoodzApp</string>
-    <string name="comienza">Comienza con nosotros</string>
+    <string name="comienza">Ya tengo una cuenta!</string>
     <string name="continuar">Continuar</string>
+    <string name="usuarionombre">Nombre de usuario</string>
+    <string name="contrasenia">Ingrese la contraseña</string>
+    <string name="resitrarse">Registrarse</string>
 </resources>
