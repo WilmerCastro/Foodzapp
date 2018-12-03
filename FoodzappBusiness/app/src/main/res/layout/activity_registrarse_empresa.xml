@@ -116,12 +116,24 @@
 
     <EditText
         android:id="@+id/editText5"
-        android:layout_width="279dp"
-        android:layout_height="135dp"
+        android:layout_width="266dp"
+        android:layout_height="82dp"
         android:layout_below="@+id/imageView3"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
         android:ems="10"
         android:hint="Breve descripcion de la empresa"
         android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-53dp"
+        android:ems="10"
+        android:hint="                   RNC"
+        android:inputType="number" />
 
 </RelativeLayout>
