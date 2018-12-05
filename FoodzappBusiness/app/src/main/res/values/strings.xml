@@ -10,4 +10,5 @@
     <string name="email">Ingrese un Email</string>
     <string name="unete">Unete a nosotros</string>
     <string name="uneteEmp">Se parte de nosotros</string>
+    <string name="title_activity_mapa_restaurantes">Map</string>
 </resources>
